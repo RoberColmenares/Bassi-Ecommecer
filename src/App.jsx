@@ -20,7 +20,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/Bassi-Ecommecer/" element={<Principal />} />
+        <Route path="/" element={<Principal />} />
         <Route path="/pizza/:id" element={<DetallePizza />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
