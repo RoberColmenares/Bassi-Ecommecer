@@ -6,7 +6,7 @@ import ContextoProvider from './Context/Contexcart.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/Bassi-Ecommecer/">
+    <BrowserRouter basename="/Bassi-Ecommecer">
       <ContextoProvider>
         <App />
       </ContextoProvider>
