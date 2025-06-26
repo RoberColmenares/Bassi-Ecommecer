@@ -19,11 +19,12 @@ function App() {
       <Barra />
       <Header />
 
-      <Routes>
-        <Route path="/" element={<Principal />} />
-        <Route path="/pizza/:id" element={<DetallePizza />} />
-        <Route path="/cart" element={<Cart />} />
-      </Routes>
+<Routes>
+  <Route path="/" element={<Bienvenida />} />
+  <Route path="/home" element={<Principal />} />
+  <Route path="/pizza/:id" element={<DetallePizza />} />
+  <Route path="/cart" element={<Cart />} />
+</Routes>
 
       <Footer />
 
