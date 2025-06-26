@@ -20,7 +20,7 @@ const Bienvenida = ({ onStart }) => {
         width: '90%',
         boxShadow: '0 0 15px rgba(0,0,0,0.3)'
       }}>
-        <h1>¡Bienvenido a Bassi E-commerce!</h1>
+        <h1>¡Bienvenido a Bassic E-commerce!</h1>
         <p>Esta solo es una app de maqueta para mis clientes</p>
         <button
           onClick={onStart}
