@@ -14,7 +14,8 @@ function App() {
     <Barra></Barra>
     <Header></Header>
     <Routes>
-      <Route path="/" element={<Principal />} />
+  <Route path="/" element={<Principal />} />
+  <Route path="/home" element={<Principal />} />
       <Route path="/pizza/:id" element={<DetallePizza />} />
       <Route path="/cart" element={<Cart />} />
     </Routes>
